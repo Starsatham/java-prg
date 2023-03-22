@@ -1,0 +1,18 @@
+import java.util.*;
+public class prg
+public static void main(String args[])
+{
+int b;
+Scanner o=new Scanner(System.in);
+System.out.println("Enter a number:");
+b=o.nextInt();
+for(int i=1;i<=b;i++)
+{
+for(int space=1;space<=i;space++)
+{
+for(int j=b;j>=i;j--)
+{
+System.out.print(j);
+}
+System.out.println();
+}
